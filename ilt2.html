@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helventica, sans-serif;
+  }
+
+   {
+    box-sizing: border-box;
+   }
+
+  .bg-image {
+
+    background-image: url("https://www.feteetcompagnie.fr/images/feteetcie/fete-et-compagnies-nos-actualites.jpg");
+
+    /* Add the blur effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+.bg-text {
+  /* Position text in the middle of the page/image */
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.25);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  </style>
+  </head>
+  <body>
+
+  <div class="bg-image"></div>
+  <div class="bg-text">
+    <h1 style="font-size:50px">I S L A N D L I F E</h1>
+    <p> Gerard Porter and Sean Francois</p></div>
+  </body>
+</html>
